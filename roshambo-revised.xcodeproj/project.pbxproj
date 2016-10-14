@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6BD9EFDE1DAFAB010090D9CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9EFDD1DAFAB010090D9CD /* AppDelegate.swift */; };
-		6BD9EFE01DAFAB010090D9CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9EFDF1DAFAB010090D9CD /* ViewController.swift */; };
+		6BD9EFE01DAFAB010090D9CD /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9EFDF1DAFAB010090D9CD /* ChoiceViewController.swift */; };
 		6BD9EFE31DAFAB010090D9CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD9EFE11DAFAB010090D9CD /* Main.storyboard */; };
 		6BD9EFE51DAFAB010090D9CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BD9EFE41DAFAB010090D9CD /* Assets.xcassets */; };
 		6BD9EFE81DAFAB010090D9CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD9EFE61DAFAB010090D9CD /* LaunchScreen.storyboard */; };
 		6BD9EFF31DAFAB010090D9CD /* roshambo_revisedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9EFF21DAFAB010090D9CD /* roshambo_revisedTests.swift */; };
 		6BD9EFFE1DAFAB010090D9CD /* roshambo_revisedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9EFFD1DAFAB010090D9CD /* roshambo_revisedUITests.swift */; };
+		6BD9F00C1DAFAE000090D9CD /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD9F00B1DAFAE000090D9CD /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		6BD9EFDA1DAFAB010090D9CD /* roshambo-revised.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "roshambo-revised.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD9EFDD1DAFAB010090D9CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6BD9EFDF1DAFAB010090D9CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BD9EFDF1DAFAB010090D9CD /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		6BD9EFE21DAFAB010090D9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BD9EFE41DAFAB010090D9CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BD9EFE71DAFAB010090D9CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		6BD9EFF91DAFAB010090D9CD /* roshambo-revisedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "roshambo-revisedUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD9EFFD1DAFAB010090D9CD /* roshambo_revisedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roshambo_revisedUITests.swift; sourceTree = "<group>"; };
 		6BD9EFFF1DAFAB010090D9CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD9F00B1DAFAE000090D9CD /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				6BD9EFDD1DAFAB010090D9CD /* AppDelegate.swift */,
-				6BD9EFDF1DAFAB010090D9CD /* ViewController.swift */,
+				6BD9EFDF1DAFAB010090D9CD /* ChoiceViewController.swift */,
+				6BD9F00B1DAFAE000090D9CD /* ResultViewController.swift */,
 				6BD9EFE11DAFAB010090D9CD /* Main.storyboard */,
 				6BD9EFE41DAFAB010090D9CD /* Assets.xcassets */,
 				6BD9EFE61DAFAB010090D9CD /* LaunchScreen.storyboard */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BD9EFE01DAFAB010090D9CD /* ViewController.swift in Sources */,
+				6BD9EFE01DAFAB010090D9CD /* ChoiceViewController.swift in Sources */,
 				6BD9EFDE1DAFAB010090D9CD /* AppDelegate.swift in Sources */,
+				6BD9F00C1DAFAE000090D9CD /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				6BD9F0041DAFAB010090D9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BD9F0051DAFAB010090D9CD /* Build configuration list for PBXNativeTarget "roshambo-revisedTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				6BD9F0071DAFAB010090D9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BD9F0081DAFAB010090D9CD /* Build configuration list for PBXNativeTarget "roshambo-revisedUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				6BD9F00A1DAFAB010090D9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
